@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*moncode*/
+/*DIFFERENTE PARTIE*/
+body{
+	font-size: 14px;
+	line-height: 1.6em;
+	font-family: Verdana , Geneva , sans-serif;
+	background: #20190F;
+	color: #E8DBB1;
+}
+#blocpage{
+	background-image: url("../images/fond.jpg");
+	width:800px;
+	margin:0 auto;
+}
+
+header{
+	height: 270px;
+	background-image: url("../images/entete.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+aside{
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 470px;
+	background-image: url("../images/micro.jpg");
+	background-repeat: no-repeat;
+	font-family: Comic Sans MS, cursive, Sans-Serif;
+	font-size: 16px;
+}
+
+#blabla{
+	float: right;
+	height: auto;
+	width: 550px;
+}
+footer{
+	position: relative;
+	clear: both;
+	height: 65px;
+	background-image: url(../images/pied.png);
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+}
+
+/*HEADDER*/
+/*ICONE TOP*/
+/*ICONEDECO*/
+#onoff{
+	width: 68px;
+	height: 73px;
+	background-image: url("../images/deconnexion.png");
+	position: absolute;
+	right: 0px;
+	top: 15px;
+}
+#onoff:hover{
+	background-image: url("../images/deconnexion_over.png");
+}
+/*ICONEHOME*/
+#home{
+	width: 48px;
+	height: 44px;
+	background-image: url(../images/home.png);
+	position: absolute;
+	right: 215px;
+	top: 80px;
+
+}
+#home:hover{
+	background-image: url(../images/home_over.png);
+}
+
+#lignehead{
+	position: absolute;
+	right: 0px;
+	top: 200px;
+}
+
+/*ICONERECHERCHE*/
+#cherche{
+	width: 44px;
+	height: 40px;
+	background-image: url(../images/cherche.png);
+	position: absolute;
+	top: 85px;
+	right: 155px;	
+}
+#cherche:hover{
+	background-image: url(../images/cherche_over.png);
+}
+
+/*ICONECONFIG*/
+#config{
+	width: 44px;
+	height: 40px;
+	background-image: url(../images/config.png);
+	position: absolute;
+	top: 85px;
+	right: 100px;
+}
+#config:hover{
+	background-image: url(../images/config_over.png);
+}
+/*BANNIERESAISIE*/
+form{
+	background-image: url("../images/saisie.png");
+	width: 528px;
+	height: 142px;
+	position: absolute;
+	right: 0px;
+	top: 125px;
+}
+#saisie{
+	position: absolute;
+	right: 0px;
+	top: 125px;
+}
+
+/*FORMULAIRE*/
+/*SAISIETEXTE*/
+textarea{
+	width: 470px;
+	height: 55px;
+	background-color: #f5f4f4;
+	color: #7a370d;
+	border-color: #b4b3b3;
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	resize: none;
+}
+input{
+	border: none;
+	background: none;
+}
+/*ICONETROMBONE*/
+#trombone{
+	width: 52px;
+	height: 44px;
+	background-image: url(../images/trombone.png);
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+}
+#trombone:hover{
+	background-image: url(../images/trombone_over.png);
+}
+/*ICONEHAUTPARLEUR*/
+#haut_parleur{
+	width: 52px;
+	height: 44px;
+	background-image: url(../images/haut_parleur.png);
+	position: absolute;
+	right: 25px;
+	bottom: 10px;
+}
+#haut_parleur:hover{
+	background-image: url(../images/haut_parleur_over.png);
+}
+/*FIN FORMULAIRE*/
+
+
+/*ASIDE*/
+/*TEXTE*/
+a{
+	color: #3C96F1;
+	text-decoration: none;
+}
+.minititre{
+	padding-left: 10px;
+	margin-top: 16px;
+	color: #efe7de;
+	font-weight: bold;
+}
+#textefpiat{
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+#infoutilisateur{
+	clear: both;
+	padding-left: 10px;
+}
+#hashtag{
+	padding-left: 10px;
+	line-height: 1.2em;
+}
+/*PP*/
+#fpiat{
+	padding-left: 10px;
+	float: left;
+}
+#darck{
+	position: absolute;
+	left: 10px;
+}
+#kdick{
+	position: absolute;
+	left: 10px;
+	bottom: 30px;
+}
+/*PSEUDO*/
+#pseudokdick{
+	position: absolute;
+	bottom: 50px;
+	left: 75px;
+}
+#pseudodarck{
+	position: absolute;
+	left: 75px;
+	bottom: 105px;
+}
+
+/*LISTE*/
+#titreblablas{
+	color: #be7e11;
+	font-size:28px;
+	font-weight: bold;
+	position: absolute;
+	right: 15px;
+	top: 175px;
+}
+.lesblablas{
+	position: relative;
+	/*color: #efe7de;*/
+	line-height: 1.2em;
+	background-image: url("../images/fond_blabla.png");
+	padding-top: 5px;
+	margin-left: 25px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+#infoblablas{
+	background-image: none;
+	padding-bottom: 60px;
+	margin-top: -50px;
+}
+.ligneblabla{
+	color:white;
+}
+.pp{
+	float: left;
+	margin-left: -30px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.postTiming{
+	clear: both;
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	left: 35px;
+}
+.Repondre{
+	font-size: 12px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	opacity: 0.6;
+
+}
+.Repondre:hover{
+	opacity: 1;
+}
+.Recuiter{
+	font-size: 12px;
+	position: absolute;
+	bottom: 5px;
+	right: 70px;
+	opacity: 0.6;
+}
+.Recuiter:hover{
+	opacity: 1;
+}
+
+.auteur{
+	font-weight: bold;
+}
+#dernierblabla{
+	height: 75px;
+	margin: auto;
+	background-image: url("../images/speaker.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#Plusdeblablas{
+	font-weight: bold;
+	float: right;
+	margin-right:80px;
+	margin-top: 30px;
+}
+
+/*FOOTER*/
+.lien{
+	margin-right: 20px;
+	position: relative;
+	left: 130px;
+	top: 5px;
+	font-size: 12px;
+	opacity: 0.6;
+}
+.lien:hover{
+	opacity: 1;
+}
+
+
+
